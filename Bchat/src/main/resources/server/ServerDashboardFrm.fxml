@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="611.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.appchat.Controller.ServerDashboardController">
+   <children>
+      <ListView fx:id="listMenu" onMouseClicked="#selectedItem" prefHeight="400.0" prefWidth="200.0" />
+      <AnchorPane fx:id="anchorPane" layoutX="200.0" prefHeight="400.0" prefWidth="412.0" />
+   </children>
+</AnchorPane>
